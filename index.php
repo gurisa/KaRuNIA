@@ -4,21 +4,21 @@
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="src/files/slider/background-1.png" />
+        <img src="prototipe/src/files/slider/background-1.png" />
         <div class="caption right-center">
           <h3 class="grey-text text-darken-4 bolder">Interaksi Manusia dan Komputer</h3>
           <h5 class="grey-text text-darken-4 bolder">Cepat, tepat dan mudah!</h5>
         </div>
       </li>
       <li>
-        <img src="src/files/slider/background-2.png" />
+        <img src="prototipe/src/files/slider/background-2.png" />
         <div class="caption right-align">
           <h3>Trans Studio Mall - Bandung</h3>
           <h5 class="light grey-text text-lighten-3 bolder">Observasi divisi properti.</h5>
         </div>
       </li>
       <li>
-        <img src="src/files/slider/background-3.png" />
+        <img src="prototipe/src/files/slider/background-3.png" />
         <div class="caption left-align">
           <h3 class="grey-text text-darken-4 bolder">Studi Kasus</h3>
           <h5 class="grey-text text-darken-4 bolder">Sistem Informasi Monitoring Fasilitas dan Properti berbasis web.</h5>
@@ -39,7 +39,7 @@
           <div class="row member-card">
             <?php if ($i % 2 == 1) { ?>
             <div class="col s12 m4">
-              <img class="circle responsive-img member-img" src="src/files/member/<?php echo $members[$i]["photo"]; ?>" alt="<?php echo $members[$i]["name"]; ?>" title="<?php echo $members[$i]["name"]; ?>" width="80px" height="80px" />
+              <img class="circle responsive-img member-img" src="prototipe/src/files/member/<?php echo $members[$i]["photo"]; ?>" alt="<?php echo $members[$i]["name"]; ?>" title="<?php echo $members[$i]["name"]; ?>" width="80px" height="80px" />
             </div>
             <?php } ?>
             <div class="col s12 m8">
@@ -52,7 +52,7 @@
             </div>
             <?php if ($i % 2 == 0) { ?>
             <div class="col s12 m4">
-              <img class="circle responsive-img member-img" src="src/files/member/<?php echo $members[$i]["photo"]; ?>" alt="<?php echo $members[$i]["name"]; ?>" title="<?php echo $members[$i]["name"]; ?>" width="80px" height="80px" />
+              <img class="circle responsive-img member-img" src="prototipe/src/files/member/<?php echo $members[$i]["photo"]; ?>" alt="<?php echo $members[$i]["name"]; ?>" title="<?php echo $members[$i]["name"]; ?>" width="80px" height="80px" />
             </div>
             <?php } ?>
           </div>
@@ -96,7 +96,7 @@
             </div>
             <div class="col s12 m4" style="margin-top:5px;">
               <div id="middle-member-photo">
-                <img class="member-img-sized-180 responsive-img member-img" src="src/files/user/<?php echo $users[$id]["photo"]; ?>" alt="<?php echo $users[$id]["name"]; ?>" title="<?php echo $users[$id]["name"]; ?>" />
+                <img class="member-img-sized-180 responsive-img member-img" src="prototipe/src/files/user/<?php echo $users[$id]["photo"]; ?>" alt="<?php echo $users[$id]["name"]; ?>" title="<?php echo $users[$id]["name"]; ?>" />
                 <br />
                 <span style="font-size:18px; text-align:center; padding:5px;" class="bold uppercase text-wrap"><?php echo $users[$id]["name"]; ?></span>
               </div>
@@ -150,7 +150,7 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m3">
-                    <img class="circle responsive-img member-img" src="src/files/user/<?php echo $users[$i]["photo"]; ?>" alt="<?php echo $users[$i]["name"]; ?>" title="<?php echo $users[$i]["name"]; ?>" />
+                    <img class="circle responsive-img member-img" src="prototipe/src/files/user/<?php echo $users[$i]["photo"]; ?>" alt="<?php echo $users[$i]["name"]; ?>" title="<?php echo $users[$i]["name"]; ?>" />
                   </div>
                   <div class="col s12 m9">
                     <span class="card-title black-text"><?php echo empty_strip($users[$i]["name"]); ?></span>

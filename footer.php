@@ -19,7 +19,7 @@
             <li><a class="grey-text text-lighten-2" href="index.php#pengguna">Data Pengguna</a></li>
             <li><a class="grey-text text-lighten-2" href="index.php#kesimpulan">Kesimpulan Data Pengguna</a></li>
             <li><a class="grey-text text-lighten-2" href="index.php#download">Download</a></li>
-            <li><a class="grey-text text-lighten-2" href="app/">Aplikasi</a></li>
+            <li><a class="grey-text text-lighten-2" href="prototipe/">Prototipe</a></li>
           </ul>
         </div>
         <div class="col s12 m3">
@@ -40,10 +40,10 @@
     </div>
   </footer>
 
-  <script data-cfasync="false" src="src/jquery/jquery.js" language="javascript"></script>
-  <script data-cfasync="false" src="src/materialize/js/materialize.js" language="javascript"></script>
-  <script data-cfasync="false" src="src/custom/style.js" language="javascript"></script>
-  <script data-cfasync="false" src="src/chart/chart-2.4.js" type="text/javascript" language="javascript"></script>
-  <script data-cfasync="false" src="src/chart/chart-data.js" type="text/javascript" language="javascript"></script>
+  <script data-cfasync="false" src="prototipe/src/jquery/jquery.js" language="javascript"></script>
+  <script data-cfasync="false" src="prototipe/src/materialize/js/materialize.js" language="javascript"></script>
+  <script data-cfasync="false" src="prototipe/src/custom/style.js" language="javascript"></script>
+  <script data-cfasync="false" src="prototipe/src/chart/chart-2.4.js" type="text/javascript" language="javascript"></script>
+  <script data-cfasync="false" src="prototipe/src/chart/chart-data.js" type="text/javascript" language="javascript"></script>
   </body>
 </html>

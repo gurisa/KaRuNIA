@@ -10,12 +10,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="src/custom/style.css" rel="stylesheet" />
-    <link href="src/materialize/css/materialize.css" rel="stylesheet" />
+    <link href="prototipe/src/custom/style.css" rel="stylesheet" />
+    <link href="prototipe/src/materialize/css/materialize.css" rel="stylesheet" />
     <title>Interaksi Manusia dan Komputer | Kelompok KaRuNIA | IMK - 6</title>
   </head>
   <body>
-  <?php include_once("assets.php"); ?>
+  <?php include_once("prototipe/assets.php"); ?>
   <nav>
     <div class="nav-wrapper grey darken-4">
       <div class="container">
@@ -28,7 +28,7 @@
           <li><a href="index.php#pengguna">Data Pengguna</a></li>
           <li><a href="index.php#kesimpulan">Kesimpulan Data Pengguna</a></li>
           <li><a href="index.php#download">Download</a></li>
-          <li><a href="app/">Aplikasi</a></li>
+          <li><a href="prototipe/">Prototipe</a></li>
         </ul>
         <ul id="mobile-demo" class="side-nav">
           <li><a href="index.php">KaRuNIA</a></li>
@@ -36,7 +36,7 @@
           <li><a href="index.php#pengguna">Data Pengguna</a></li>
           <li><a href="index.php#kesimpulan">Kesimpulan Data Pengguna</a></li>
           <li><a href="index.php#download">Download</a></li>
-          <li><a href="app/">Aplikasi</a></li>
+          <li><a href="prototipe/">Prototipe</a></li>
         </ul>
       </div>
     </div>
