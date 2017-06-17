@@ -1,0 +1,59 @@
+/*
+  Developed by : Raka Suryaardi Widjaja;
+  Copyright    : Copyright (c) 2017 Gurisa.Com All Rights Reserved;
+  Version      : 0.1;
+*/
+
+body {
+  /*font-family: "Open Sans","Verdana","Arial","Times New Roman";*/
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+div {
+  flex: 1 0 auto;
+}
+
+div.login {
+  margin:15px 0px 15px 0px;
+}
+
+img.member-img {
+  width:80px;
+  height:60px;
+  margin:1px;
+}
+
+div.member-card {
+  padding:8px 5px 5px 5px;
+  border:2px dashed #383838;
+}
+
+div.read-more {
+  text-align:right;
+  color: white;
+}
+
+div#kelompok {
+  padding:5px 2px 5px 2px;
+  background-color: #ecf0f1;
+}
+
+div#pengguna {
+  padding:5px 2px 5px 2px;
+  background-color: #ecf0f1;
+}
+
+div#tentang {
+  background-color: #2c3e50;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: bolder;
+}
