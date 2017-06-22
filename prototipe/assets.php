@@ -338,6 +338,29 @@
       "kutipan"=>"Logic will get you from A to B. Imagination will take you everywhere.",
       "penulis"=>"Albert Einstein")
   );
+
+  $property = array(
+    array(
+      "name"=>"Sky Pirates",
+      "description"=>"Wahana bermain dengan luas 250 meter persegi merupakan wahana popular bahkan hingga sekarang.",
+      "path"=>"1.jpg"
+    ),
+    array(
+      "name"=>"Trans City Theatre",
+      "description"=>"Teater dengan kapasitas penonton hingga 500 orang yang menyajikan pertunjukan dan film yang menakjubkan.",
+      "path"=>"2.jpg"
+    ),
+    array(
+      "name"=>"Roller Coaster",
+      "description"=>"Dengan panjang lintasan mencapai 1km wahana ini akan membuat pengunjung merasa 'takjub'.",
+      "path"=>"3.jpg"
+    ),
+    array(
+      "name"=>"Magical Parade",
+      "description"=>"Pertunjukan sulap terhebat masa kini, menampilkan sulap dari para pesulap tangguh Indonesia.",
+      "path"=>"4.jpg"
+    ),
+  );
 ?>
 
 <?php
