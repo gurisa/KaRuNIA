@@ -25,41 +25,61 @@
             </ol>
           </div>
         </div>
-        <!-- page start-->
         <div class="row">
-          <div class="col-md-12">
-
+          <div class="col-md-9">
+            <!-- page start-->
             <div class="row">
-              <?php for ($i=0;$i<count($property);$i++) {?>
-              <div class="col-md-4">
-                <div class="panel panel-default text-center">
-                  <div class="panel-body popovers" data-original-title="<?php echo $property[$i]["name"]; ?>" data-content="<?php echo $property[$i]["description"]; ?>" data-placement="bottom" data-trigger="hover">
-                    <div style="margin-bottom:5px;">
-                      <img src="src/files/gallery/<?php echo $property[$i]["path"]; ?>" width="250px" height="170px" />
-                    </div>
-                    <div class="btn-group">
-                      <a class="btn btn-primary" href="#"><i class="icon_plus_alt2"></i></a>
-                      <a class="btn btn-danger" href="#"><i class="icon_close_alt2"></i></a>
+              <div class="col-md-12">
+
+                <div class="row">
+                  <?php for ($i=0;$i<count($property);$i++) {?>
+                  <div class="col-md-4">
+                    <div class="panel panel-default text-center">
+                      <div class="panel-body popovers" data-original-title="<?php echo $property[$i]["name"]; ?>" data-content="<?php echo $property[$i]["description"]; ?>" data-placement="bottom" data-trigger="hover">
+                        <div style="margin-bottom:5px;">
+                          <img src="src/files/gallery/<?php echo $property[$i]["path"]; ?>" width="250px" height="170px" />
+                        </div>
+                        <div class="btn-group">
+                          <a class="btn btn-primary" href="#"><i class="icon_plus_alt2"></i></a>
+                          <a class="btn btn-danger" href="#"><i class="icon_close_alt2"></i></a>
+                        </div>
+                      </div>
                     </div>
                   </div>
+                  <?php } ?>
                 </div>
-              </div>
-              <?php } ?>
-            </div>
 
-            <div class="text-center">
-                <ul class="pagination pagination-lg">
-                    <li><a href="#">«</a></li>
-                    <?php for ($i=1;$i<=10;$i++) {?>
-                      <li><a href="#"><?php echo $i; ?></a></li>
-                    <?php } ?>
-                    <li><a href="#">»</a></li>
-                </ul>
+                <div class="text-center">
+                    <ul class="pagination pagination-lg">
+                        <li><a href="#">«</a></li>
+                        <?php for ($i=1;$i<=10;$i++) {?>
+                          <li><a href="#"><?php echo $i; ?></a></li>
+                        <?php } ?>
+                        <li><a href="#">»</a></li>
+                    </ul>
+                </div>
+
+              </div>
+            </div>
+            <!-- page end-->
+          </div>
+          <div class="col-md-3">
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h2><strong>Petunjuk</strong></h2>
+              </div>
+              <div class="panel-body">
+                <ol>
+                  <li>Anda dapat pindah ke laman atau menu lainnya melalui navigasi dan menu yang sudah tersedia di sebelah kiri dan pojok kanan atas anda.</li>
+                  <li>Anda dapat mengelola galeri yang tersedia dengan cara menambahkan, mengubah ataupun menghapus dokumen tersebut <i>(administrator)</i></li>
+                  <li>Anda dapat menelusuri seluruh galeri menggunakan sub-menu halaman berupa nomor halaman yang terdapat di bagian bawah galeri.</li>
+                </ol>
+              </div>
             </div>
 
           </div>
-        </div>
-        <!-- page end-->
+
       </section>
     </section>
     <!--main content end-->

@@ -34,9 +34,7 @@
             <div class="section-title margin-top-50">
               <h2>Tentang <span class="section-title-style"> Kami</span></h2>
               <i class="icon-organization icon-style color-1"></i>
-              <p>Trans Studio Mall Bandung atau disingkat TSM (dahulu Bandung Supermal (BSM)) merupakan pusat pembelanjaan terbesar di Bandung yang upacara diresmikan hingga upacara pembukaan sejak pada tanggal 25 Oktober 2001 dengan nama Bandung Supermal,
-                dengan lokasi yang strategis di Jalan Jenderal Gatot Subroto. Mal ini terdiri dari 5 lantai dengan penyewa-penyewa yang sudah terkenal sebagai perusahaan besar baik skala nasional maupun internasional antara lain Metro Department Store,
-                Gramedia, TSM XXI, Trans Studio Bandung, Hero Supermarket, dan masih banyak lagi. Mal ini adalah bagian dari CT Corp, milik konglomerat Chairul Tanjung.</p>
+              <p>Trans Studio Mall Bandung atau disingkat TSM (dahulu Bandung Supermal) merupakan pusat pembelanjaan terbesar di Bandung yang diresmikan pada tanggal 25 Oktober 2001 dengan nama Bandung Supermal, dengan lokasi yang strategis di Jalan Jenderal Gatot Subroto. Mal ini terdiri dari 5 lantai dan terdapat banyak brand terkenal baik skala nasional maupun internasional antara lain Metro Department Store, Gramedia, TSM XXI, Trans Studio Bandung, Hero Supermarket, dan masih banyak lagi. Mal ini adalah bagian dari CT Corp, milik konglomerat Chairul Tanjung.</p>
             </div>
           </div>
           <!-- About Us End -->

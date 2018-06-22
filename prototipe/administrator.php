@@ -22,24 +22,11 @@
             <ol class="breadcrumb">
               <li><i class="fa fa-home"></i><a href="dashboard.php">Beranda</a></li>
               <li><i class="icon_genius"></i>Administrator</li>
-
+            </ol>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-md-3">
-            <header class="panel-heading">Menu</header>
-            <div class="list-group">
-              <a class="list-group-item" href="javascript:;">
-                <h4 class="list-group-item-heading">Umum</h4>
-                <p class="list-group-item-text">Kelola Pengaturan Aplikasi</p>
-              </a>
-              <a class="list-group-item active" href="javascript:;">
-                <h4 class="list-group-item-heading">Pengguna</h4>
-                <p class="list-group-item-text">Kelola Data Pengguna</p>
-              </a>
-            </div>
-          </div>
           <div class="col-md-9">
             <section class="panel">
               <header class="panel-heading">Data Pengguna</header>
@@ -72,6 +59,33 @@
               </table>
               <button type="button" class="btn btn-primary btn-lg btn-block"><i class="icon_plus_alt2"></i> Tambah Data Pengguna</button>
             </section>
+          </div>
+          <div class="col-md-3">
+            <header class="panel-heading">Menu</header>
+            <div class="list-group">
+              <a class="list-group-item" href="javascript:;">
+                <h4 class="list-group-item-heading">Umum</h4>
+                <p class="list-group-item-text">Kelola Pengaturan Aplikasi</p>
+              </a>
+              <a class="list-group-item active" href="javascript:;">
+                <h4 class="list-group-item-heading">Pengguna</h4>
+                <p class="list-group-item-text">Kelola Data Pengguna</p>
+              </a>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h2><strong>Petunjuk</strong></h2>
+              </div>
+              <div class="panel-body">
+                <ol>
+                  <li>Anda dapat pindah ke laman atau menu lainnya melalui navigasi dan menu yang sudah tersedia di sebelah kiri dan pojok kanan atas anda.</li>
+                  <li>Anda dapat melihat informasi umum dan informasi pengguna melalui sub-menu yang tersedia di pojok kanan.</li>
+                  <li>Anda dapat mengelola informasi pengguna yakni menambah, menghapus ataupun mengubah dengan cara menekan tombol fungsional yang tersedia.</li>
+                </ol>
+              </div>
+            </div>
+
           </div>
         </div>
         <!-- page end-->
